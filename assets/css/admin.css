@@ -270,16 +270,20 @@ table td .status {
     font-size: 0.9rem;
 }
 
+
 .btn-edit {
     background-color: var(--info);
+    color: var(--white);
 }
 
 .btn-delete {
     background-color: var(--danger);
+    color: white;
 }
 
 .btn-view {
-    background-color: var(--olive-green);
+    background-color: white;
+    color: white;
 }
 
 /* Forms */
