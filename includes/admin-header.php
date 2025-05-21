@@ -21,6 +21,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
     <link rel="stylesheet" href="../assets/css/admin.css">
 </head>
 <body>
+    <?php include 'loading-screen.php'; ?>
     <div class="admin-container">
         <!-- Sidebar -->
         <div class="sidebar">
