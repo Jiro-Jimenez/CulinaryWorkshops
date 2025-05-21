@@ -696,30 +696,32 @@ footer {
     }
 }
 
+/* Mobile Styles */
 @media (max-width: 768px) {
     .mobile-menu-btn {
         display: block;
     }
-    
+
     nav ul {
         display: none;
         flex-direction: column;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
         background-color: var(--olive-green);
-        padding: 1rem;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        z-index: 100;
+        z-index: 999;
     }
-    
-    nav ul.show {
+
+    nav ul.active {
         display: flex;
     }
-    
+
     nav ul li {
         margin: 0.5rem 0;
+        text-align: center;
     }
     
     .hero h1 {
@@ -741,7 +743,6 @@ footer {
         font-size: 1.8rem;
     }
 
-
-
+}
 
 }
